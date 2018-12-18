@@ -1,0 +1,2 @@
+<li><a href="<?php echo base_url('staff/index'); ?>" class=""><i class="lnr lnr-home"></i> <span>Dashboard</span></a></li>
+<li><a href="<?php echo base_url('staff/rekapsurat/'.$this->session->userdata('NIP')); ?>" class=""><i class="lnr lnr-chart-bars"></i> <span>Rekap Surat Tugas</span></a></li>
