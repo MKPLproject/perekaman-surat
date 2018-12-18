@@ -122,7 +122,7 @@ class Kurusan extends CI_Controller{
 			print "<script type=\"text/javascript\">alert('Pegawai dengan NIP $url tidak mempunyai surat tugas');</script>";			 			 
 			
 		$data['main_view'] = 'tatausaha/Kurusan/v_pegawai';
-		$data['pegawai'] = $this->m_kbagian->tampilPegawaiTU();
+		$data['pegawaidats'] = $this->m_kbagian->tampilPegawaiTU();
 		}
 		}
 		
