@@ -24,10 +24,10 @@ class Kurusan extends CI_Controller{
 		$this->load->view('template', $data);
 	}
 
-	//function detail_surat($Nomor_Surat){
-		//$data['detail_st'] = $this->m_kbagian->detail_surat($Nomor_Surat);   
-		//$this->load->view('v_detail_surat', $data);
-	//}
+	function detail_surat($Nomor_Surat){
+		$data['detail_st'] = $this->m_kbagian->detail_surat($Nomor_Surat);   
+		$this->load->view('v_detail_surat', $data);
+	}
 
 	function detail_surat($Nomor_Surat){
 		$data['main_view'] = 'tatausaha/Kurusan/v_detail_surat';
